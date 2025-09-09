@@ -1,0 +1,3 @@
+[submodule "src/sceptre-pipeline"]
+	path = src/sceptre-pipeline
+	url = https://github.com/timothy-barry/sceptre-pipeline.git
