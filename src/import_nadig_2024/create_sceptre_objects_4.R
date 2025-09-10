@@ -19,5 +19,5 @@ create_sceptre_obj <- function(cell_line) {
   write_ondisc_backed_sceptre_object(sceptre_object, directory_to_write)
 }
 
-#create_sceptre_obj("jurkat")
-create_sceptre_obj("hepg2")
+create_sceptre_obj("jurkat")
+#create_sceptre_obj("hepg2")

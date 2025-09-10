@@ -1,6 +1,6 @@
-repl_offsite <- paste0(.get_config_path("LOCAL_REPLOGLE_2022_DATA_DIR"))
-jurkat_dir <- file.path(repl_offsite, "jurkat")
-hepg2_dir <- file.path(repl_offsite, "hepg2")
+data_dir <- "/home/biv22/rds/rds-mrc-bsu-csoP2nj6Y6Y/biv22/SCEPTRE/data/"
+jurkat_dir <- file.path(data_dir, "jurkat")
+hepg2_dir <- file.path(data_dir, "hepg2")
 
 organize_files_for_dir <- function(curr_dir) {
   fs <- list.files(curr_dir)
